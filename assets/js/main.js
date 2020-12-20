@@ -22,6 +22,38 @@ MYPROFILE.mainFunction = (function(){
         }
         eyeAnimation(); 
         
+        $('.think').hover(
+            function () {
+                $('.js-think').addClass('active');
+            },
+            function () {
+                $('.js-think').removeClass('active');
+            }
+        );
+        $('.create').hover(
+            function () {
+                $('.js-create').addClass('active');
+            },
+            function () {
+                $('.js-create').removeClass('active');
+            }
+        );
+        $('.code').hover(
+            function () {
+                $('.js-code').addClass('active');
+            },
+            function () {
+                $('.js-code').removeClass('active');
+            }
+        );
+        $('.deliver').hover(
+            function () {
+                $('.js-deliver').addClass('active');
+            },
+            function () {
+                $('.js-deliver').removeClass('active');
+            }
+        );
     };
     return {
         init: init

@@ -12,7 +12,34 @@
             width: 16rem;
             height: 20rem;
             background: transparent;
-        }        
+        }
+        width: 20rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-top: 0.2rem;
+        box-sizing: border-box;
+        @include trans(all ease-out 1s);
+        &.js-think.active{
+            background-color: rgba(162, 78, 232, .25);
+            backdrop-filter: blur(5px);
+            border-radius: 50%;                        
+        } 
+        &.js-create.active{
+            background-color: rgba(10, 156, 116, .25);
+            backdrop-filter: blur(5px);
+            border-radius: 50%;            
+        }
+        &.js-code.active{
+            background-color: rgba(255, 207, 53, .25);
+            backdrop-filter: blur(5px);            
+            border-radius: 50%;           
+        } 
+        &.js-deliver.active{
+            background-color: rgba(193, 0, 77, .25);
+            backdrop-filter: blur(5px);
+            border-radius: 50%;           
+        }    
     }
 }
 .hero-title{    
