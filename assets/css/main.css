@@ -1,0 +1,334 @@
+/* Variables */
+/* Background color */
+/* Mixins */
+/* Mixins */
+/* Animation */
+/* Font */
+/* Fonts */
+@font-face {
+  font-family: "MontserratBlack";
+  src: url("../../assets/fonts/Montserrat/Montserrat-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratBlackItalic";
+  src: url("../../assets/fonts/Montserrat/Montserrat-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  src: url("../../assets/fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratBoldItalic";
+  src: url("../../assets/fonts/Montserrat/Montserrat-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratExtraBold";
+  src: url("../../assets/fonts/Montserrat/Montserrat-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratExtraBoldItalic";
+  src: url("../../assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratExtraLight";
+  src: url("../../assets/fonts/Montserrat/MontserratExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratExtraLightItalic";
+  src: url("../../assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratItalic";
+  src: url("../../assets/fonts/Montserrat/Montserrat-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratLight";
+  src: url("../../assets/fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratLightItalic";
+  src: url("../../assets/fonts/Montserrat/Montserrat-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratMedium";
+  src: url("../../assets/fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratMediumItalic";
+  src: url("../../assets/fonts/Montserrat/Montserrat-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratRegular";
+  src: url("../../assets/fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratSemiBold";
+  src: url("../../assets/fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratSemiBoldItalic";
+  src: url("../../assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratThin";
+  src: url("../../assets/fonts/Montserrat/Montserrat-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratThinItalic";
+  src: url("../../assets/fonts/Montserrat/Montserrat-ThinItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bahnschrift";
+  src: url("../../assets/fonts/Bahnschrift/bahnschrift.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Rockwell_MT_Bold";
+  src: url("../../assets/fonts/RockwellNew/Rockwell_MT_Bold.ttf") format("truetype");
+}
+
+/* Logo */
+.logo {
+  position: relative;
+  padding: 2rem 0;
+  width: 83.5%;
+  margin: auto;
+}
+
+.logo .eye {
+  position: absolute;
+  z-index: -1;
+  transition: all ease-out 0.2s;
+  -webkit-transition: all ease-out 0.2s;
+  -moz-transition: all ease-out 0.2s;
+  -o-transition: all ease-out 0.2s;
+  -ms-animation: all ease-out 0.2s;
+}
+
+.logo .eye.m0 {
+  margin: 3.3rem 0 0 16.8rem;
+}
+
+.logo .eye.m1 {
+  margin: 3rem 0 0 16.5rem;
+}
+
+.logo .eye.m2 {
+  margin: 3.5rem 0 0 16.2rem;
+}
+
+.logo .eye.m3 {
+  margin: 3.7rem 0 0 16.5rem;
+}
+
+/* Hero */
+.hero-banner {
+  height: 27rem;
+  width: 72%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-banner .threeDObj {
+  margin: 0 2rem;
+}
+
+.hero-banner .threeDObj iframe {
+  overflow: hidden;
+  width: 16rem;
+  height: 20rem;
+  background: transparent;
+}
+
+.hero-title {
+  width: 100%;
+  font-family: 'MontserratExtraBold';
+  color: rgba(255, 255, 255, 0.1);
+  -webkit-text-stroke: 0.04rem white;
+  text-align: center;
+  font-size: 6.5rem;
+}
+
+.hero-title div {
+  display: inline-block;
+}
+
+.hero-title div.think:hover {
+  -webkit-text-stroke: 0rem #8906ba;
+  color: #a24ee8;
+  cursor: pointer;
+}
+
+.hero-title div.create:hover {
+  -webkit-text-stroke: 0rem #8906ba;
+  color: #0a9c74;
+  cursor: pointer;
+}
+
+.hero-title div.code:hover {
+  -webkit-text-stroke: 0rem #8906ba;
+  color: #ffcf35;
+  cursor: pointer;
+}
+
+.hero-title div.deliver:hover {
+  -webkit-text-stroke: 0rem #8906ba;
+  color: #c1004d;
+  cursor: pointer;
+}
+
+.hero-title .hero-name {
+  font-family: 'MontserratLight';
+  -webkit-text-stroke: 0rem white;
+  letter-spacing: 0;
+  color: #020a32;
+  font-size: 3rem;
+}
+
+.hero-title .hero-intro {
+  font-family: 'MontserratRegular';
+  -webkit-text-stroke: 0rem white;
+  letter-spacing: 0;
+  color: #690052;
+  margin: auto;
+  font-size: 1.6rem;
+  width: 50%;
+}
+
+/* Scroll */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Animations */
+/* Mixins */
+/* Animation */
+body {
+  -webkit-animation: fadeInAnimation ease 1s;
+          animation: fadeInAnimation ease 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* CSS */
+html, body {
+  font-size: 62.5%;
+}
+
+body {
+  background: white url("../img/bg-body.jpg") no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+  transition: all ease-out 0.2s;
+  -webkit-transition: all ease-out 0.2s;
+  -moz-transition: all ease-out 0.2s;
+  -o-transition: all ease-out 0.2s;
+  -ms-animation: all ease-out 0.2s;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a, a:hover, a:active, a:focus, input, button, textarea {
+  outline: none;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 414px) {
+  .logo {
+    padding: 1rem 0;
+    width: 95%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 812px) and (orientation: landscape) {
+  .logo {
+    padding: 1rem 0;
+    width: 98%;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */

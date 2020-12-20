@@ -1,0 +1,55 @@
+/* Variables */
+@import './partials/variables';
+/* Mixins */
+@import './partials/mixins';
+/* Font */
+@import './partials/fonts'; 
+
+/* Logo */
+@import './partials/logo'; 
+
+/* Hero */
+@import './partials/hero'; 
+
+
+/* Scroll */
+@import './partials/scroll'; 
+
+/* Animations */
+@import './partials/animations'; 
+
+/* CSS */
+html, body{
+    font-size: 62.5%;
+}
+body{
+    background: $bg-color-1 url('../img/bg-body.jpg') no-repeat fixed;
+    background-size: cover;    
+    height: 100vh;
+    @include trans(all ease-out .2s);
+    font-size: 1.6rem;
+}
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+a,a:hover, a:active, a:focus, input, button, textarea {
+    outline: none;
+}
+input::-moz-focus-inner { 
+    border: 0; 
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+        margin: 0;
+        padding: 0;
+    }
+}
+@import './partials/media'; 

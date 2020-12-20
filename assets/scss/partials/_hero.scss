@@ -1,0 +1,64 @@
+.hero-banner{
+    height:27rem;
+    width:72%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .threeDObj{     
+        margin: 0 2rem;      
+        iframe{
+            overflow: hidden;
+            width: 16rem;
+            height: 20rem;
+            background: transparent;
+        }        
+    }
+}
+.hero-title{    
+    width: 100%;    
+    font-family: 'MontserratExtraBold';
+    color: $text-color-1-a;
+    -webkit-text-stroke: 0.04rem $text-color-1;           
+    text-align: center;
+    font-size: 6.5rem;    
+    div{
+        display: inline-block;    
+        &.think:hover{
+            -webkit-text-stroke: 0.0rem $text-color-4; 
+            color: $text-color-think;
+            cursor: pointer;
+        }
+        &.create:hover{
+            -webkit-text-stroke: 0.0rem $text-color-4; 
+            color: $text-color-create;
+            cursor: pointer;
+        }
+        &.code:hover{
+            -webkit-text-stroke: 0.0rem $text-color-4; 
+            color: $text-color-code;
+            cursor: pointer;
+        }
+        &.deliver:hover{
+            -webkit-text-stroke: 0.0rem $text-color-4; 
+            color: $text-color-deliver;
+            cursor: pointer;
+        }
+    }
+   .hero-name{
+        font-family: 'MontserratLight';
+        -webkit-text-stroke: 0.0rem $text-color-1;
+        letter-spacing: 0;
+        color: $text-color-2;
+        font-size: 3rem;
+    }
+    .hero-intro{
+        font-family: 'MontserratRegular';
+        -webkit-text-stroke: 0.0rem $text-color-1;
+        letter-spacing: 0;
+        color: $text-color-3;     
+        margin: auto;
+        font-size: 1.6rem;
+        width:50%;
+    }
+}
