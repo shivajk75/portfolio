@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- AOS Scroll Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <style>
     #canvas3d{
@@ -11,7 +13,7 @@
     }
 </style>
 <body>
-    <div id="container">                    
+    <div id="container" data-aos="fade" data-aos-duration="1000">                    
         <canvas id="canvas3d"></canvas>
     </div>
     <script>
@@ -24,6 +26,11 @@
     <script src="js/assets.js"></script>
     <script src="js/scene.js"></script>
     <script src="js/main.js"></script>
+     <!-- AOS Scroll Animation -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script type="text/javascript">        
+         AOS.init();   
+     </script>
 </body>
 </html>
 

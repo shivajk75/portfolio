@@ -156,7 +156,6 @@
 }
 
 .hero-banner .threeDObj {
-  margin: 0 2rem;
   width: 20rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -170,11 +169,11 @@
   padding-top: 0.2rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  transition: all ease-out 1s;
-  -webkit-transition: all ease-out 1s;
-  -moz-transition: all ease-out 1s;
-  -o-transition: all ease-out 1s;
-  -ms-animation: all ease-out 1s;
+  transition: all ease-out 0.5s;
+  -webkit-transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+  -ms-animation: all ease-out 0.5s;
 }
 
 .hero-banner .threeDObj iframe {
@@ -229,24 +228,44 @@
   -webkit-text-stroke: 0rem #8906ba;
   color: #a24ee8;
   cursor: pointer;
+  transition: all ease-out 1s;
+  -webkit-transition: all ease-out 1s;
+  -moz-transition: all ease-out 1s;
+  -o-transition: all ease-out 1s;
+  -ms-animation: all ease-out 1s;
 }
 
 .hero-title div.create:hover {
   -webkit-text-stroke: 0rem #8906ba;
   color: #0a9c74;
   cursor: pointer;
+  transition: all ease-out 1s;
+  -webkit-transition: all ease-out 1s;
+  -moz-transition: all ease-out 1s;
+  -o-transition: all ease-out 1s;
+  -ms-animation: all ease-out 1s;
 }
 
 .hero-title div.code:hover {
   -webkit-text-stroke: 0rem #8906ba;
   color: #ffcf35;
   cursor: pointer;
+  transition: all ease-out 1s;
+  -webkit-transition: all ease-out 1s;
+  -moz-transition: all ease-out 1s;
+  -o-transition: all ease-out 1s;
+  -ms-animation: all ease-out 1s;
 }
 
 .hero-title div.deliver:hover {
   -webkit-text-stroke: 0rem #8906ba;
   color: #c1004d;
   cursor: pointer;
+  transition: all ease-out 1s;
+  -webkit-transition: all ease-out 1s;
+  -moz-transition: all ease-out 1s;
+  -o-transition: all ease-out 1s;
+  -ms-animation: all ease-out 1s;
 }
 
 .hero-title .hero-name {
