@@ -185,6 +185,10 @@
           flex-direction: column;
 }
 
+#think .row {
+  margin: 0 !important;
+}
+
 #think .think-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -406,6 +410,19 @@ ul li {
   }
   #think {
     width: 95%;
+  }
+  #think .think-title .title-no {
+    font-size: 12rem;
+  }
+  #think .think-brain .brain {
+    width: 90%;
+  }
+  #think .think-content {
+    padding: 1rem;
+  }
+  #think .think-content p {
+    font-size: 2.6rem;
+    line-height: 1.3;
   }
 }
 

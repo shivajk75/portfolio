@@ -34,7 +34,24 @@
         }
     }
     #think {
-        width:95%
+        width:95%;
+        .think-title{
+            .title-no{
+                font-size: 12rem;
+            }
+        }
+        .think-brain{
+            .brain{
+                width: 90%;
+            }
+        }
+        .think-content{
+            padding: 1rem;
+            p{
+                font-size: 2.6rem;
+                line-height: 1.3;
+            }
+        }
     }
 }
 
