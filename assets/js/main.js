@@ -4,56 +4,39 @@ MYPROFILE.mainFunction = (function(){
         bindEvents();
     };
     var bindEvents = function(){
-        var eyeAnimation = function(){
-            var $obj = $('.eye');
+        var brainAnimation = function(){            
             setTimeout(function(){
-                $obj.removeClass('m0').addClass('m1');
+                $('.brain-6').removeClass('opacity');
+                $('.brain-1').addClass('opacity');
+            },500);
+            setTimeout(function(){
+                $('.brain-1').removeClass('opacity');
+                $('.brain-5').addClass('opacity');
+            },1000);
+            setTimeout(function(){
+                $('.brain-5').removeClass('opacity');
+                $('.brain-3').addClass('opacity');
+            },1500);
+            setTimeout(function(){
+                $('.brain-3').removeClass('opacity');
+                $('.brain-7').addClass('opacity');
             },2000);
             setTimeout(function(){
-                $obj.removeClass('m1').addClass('m2');
-            },4000);
+                $('.brain-7').removeClass('opacity');
+                $('.brain-2').addClass('opacity');
+            },2500);
             setTimeout(function(){
-                $obj.removeClass('m2').addClass('m3');
-            },6000);
+                $('.brain-2').removeClass('opacity');
+                $('.brain-4').addClass('opacity');                
+            },3000);
             setTimeout(function(){
-                $obj.removeClass('m3').addClass('m0');
-                eyeAnimation();
-            },8000);            
+                $('.brain-4').removeClass('opacity');
+                $('.brain-6').addClass('opacity');
+                brainAnimation();
+            },3500);
         }
-        eyeAnimation(); 
+        brainAnimation();         
         
-        $('.think').hover(
-            function () {
-                $('.js-think').addClass('active');
-            },
-            function () {
-                $('.js-think').removeClass('active');
-            }
-        );
-        $('.create').hover(
-            function () {
-                $('.js-create').addClass('active');
-            },
-            function () {
-                $('.js-create').removeClass('active');
-            }
-        );
-        $('.code').hover(
-            function () {
-                $('.js-code').addClass('active');
-            },
-            function () {
-                $('.js-code').removeClass('active');
-            }
-        );
-        $('.deliver').hover(
-            function () {
-                $('.js-deliver').addClass('active');
-            },
-            function () {
-                $('.js-deliver').removeClass('active');
-            }
-        );
     };
     return {
         init: init

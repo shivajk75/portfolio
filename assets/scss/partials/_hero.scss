@@ -1,94 +1,19 @@
-.hero-banner{
-    height:27rem;
-    width:72%;
+.hero{
+    width: 83.5%;    
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    .threeDObj{                  
-        iframe{
-            overflow: hidden;
-            width: 16rem;
-            height: 20rem;
-            background: transparent;
-        }
-        width: 20rem;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        padding-top: 0.2rem;
-        box-sizing: border-box;
-        @include trans(all ease-out 0.5s);
-        &.js-think.active{
-            background-color: rgba(162, 78, 232, .25);
-            backdrop-filter: blur(5px);
-            border-radius: 50%;                        
-        } 
-        &.js-create.active{
-            background-color: rgba(10, 156, 116, .25);
-            backdrop-filter: blur(5px);
-            border-radius: 50%;            
-        }
-        &.js-code.active{
-            background-color: rgba(255, 207, 53, .25);
-            backdrop-filter: blur(5px);            
-            border-radius: 50%;           
-        } 
-        &.js-deliver.active{
-            background-color: rgba(193, 0, 77, .25);
-            backdrop-filter: blur(5px);
-            border-radius: 50%;           
-        }    
-    }
-}
-.hero-title{    
-    width: 100%;    
-    font-family: 'MontserratExtraBold';
-    color: $text-color-1-a;
-    -webkit-text-stroke: 0.04rem $text-color-1;           
-    text-align: center;
-    font-size: 6.5rem; 
-    div{
-        display: inline-block;          
-        &.think:hover{
-            -webkit-text-stroke: 0.0rem $text-color-4; 
-            color: $text-color-think;
-            cursor: pointer;
+    padding-top: 6rem;
+    .brain{
+        position: absolute;
+        opacity: 0.15;
+        height: 100%;
+        z-index: -1;
+        top: 0;
+        &.brain-1, &.brain-2, &.brain-3, &.brain-4, &.brain-5, &.brain-6, &.brain-7{
+            opacity: 0;
             @include trans(all ease-out 1s);
         }
-        &.create:hover{
-            -webkit-text-stroke: 0.0rem $text-color-4; 
-            color: $text-color-create;
-            cursor: pointer;
-            @include trans(all ease-out 1s);
-        }
-        &.code:hover{
-            -webkit-text-stroke: 0.0rem $text-color-4; 
-            color: $text-color-code;
-            cursor: pointer;
-            @include trans(all ease-out 1s);
-        }
-        &.deliver:hover{
-            -webkit-text-stroke: 0.0rem $text-color-4; 
-            color: $text-color-deliver;
-            cursor: pointer;
-            @include trans(all ease-out 1s);
-        }
-    }
-   .hero-name{
-        font-family: 'MontserratLight';
-        -webkit-text-stroke: 0.0rem $text-color-1;
-        letter-spacing: 0;
-        color: $text-color-2;
-        font-size: 3rem;
-    }
-    .hero-intro{
-        font-family: 'MontserratRegular';
-        -webkit-text-stroke: 0.0rem $text-color-1;
-        letter-spacing: 0;
-        color: $text-color-3;     
-        margin: auto;
-        font-size: 1.6rem;
-        width:50%;
-    }
+    } 
 }

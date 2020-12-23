@@ -1,24 +1,4 @@
 .logo{
-    position: relative;
-    padding: 2rem 0;
-    width:83.5%;
-    margin: auto;
-    .eye{
-        position: absolute;
-        z-index: -1;               
-        @include trans(all ease-out .2s);
-        &.m0{
-            margin:3.3rem 0 0 16.8rem; 
-        } 
-        &.m1{
-            margin:3rem 0 0 16.5rem;
-        }
-        &.m2{
-            margin:3.5rem 0 0 16.2rem;
-        } 
-        &.m3{
-            margin:3.7rem 0 0 16.5rem;
-        }          
-    }
-    
+    margin: 3rem auto 1rem;
+    width:83.5%;    
 }

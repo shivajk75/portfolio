@@ -11,23 +11,25 @@
 /* Hero */
 @import './partials/hero'; 
 
+/* Hero */
+@import './partials/intro'; 
 
 /* Scroll */
 @import './partials/scroll'; 
 
 /* Animations */
-@import './partials/animations'; 
+@import './partials/animations';
 
 /* CSS */
 html, body{
     font-size: 62.5%;
 }
 body{
-    background: $bg-color-1 url('../img/bg-body.jpg') no-repeat fixed;
+    background: $bg-color-1 url('../img/bg.jpg') no-repeat top;
     background-size: cover;    
     height: 100vh;
     @include trans(all ease-out .2s);
-    font-size: 1.6rem;
+    font-size: 1.6rem;    
 }
 a{
     text-decoration: none;
@@ -52,12 +54,8 @@ ul{
         padding: 0;
     }
 }
-mark{
-    background-color: $bg-color-hl;
-    color:  $text-color-hl;
-    backdrop-filter: blur(5px);
-    border-radius: 2rem;
-    padding: 0.3rem 0.5rem;
-}
 
+.opacity{
+    opacity: 1 !important;
+}
 @import './partials/media'; 
