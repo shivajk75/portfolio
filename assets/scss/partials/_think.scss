@@ -1,0 +1,72 @@
+
+#think{
+    width: 73.5%;
+    margin: 5rem auto 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;    
+    .think-title{
+        display: flex;
+        align-items: center;
+        .title-no{
+            font-family: 'MontserratLight';
+            color: $text-color-3;        
+            text-align: right;
+            font-size: 15rem;           
+            opacity: 0.5; 
+            line-height: 0;     
+        }
+        .title-sec{            
+            text-align: right;                  
+            .title{
+                font-family: 'MontserratBold';
+                color: $text-color-3;        
+                text-align: right;
+                font-size: 7.2rem;
+                line-height: 0;                
+            }
+            .caption{
+                font-family: 'MontserratBold';
+                color: $text-color-4;        
+                text-align: right;
+                font-size: 1.4rem;
+                margin-top: 1rem;
+                line-height: 3.4;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .think-brain{
+        .brain{
+            position: relative; 
+            opacity: 0.15;
+            width: 100%;
+            z-index: -1;
+            top: 0;
+            &.brain-1, &.brain-2, &.brain-3, &.brain-4, &.brain-5, &.brain-6, &.brain-7{
+                left:0;
+                position: absolute;
+                opacity: 0;
+                @include trans(all ease-out 1s);
+            }
+        }  
+    }
+    .think-content{
+        display: flex;
+        flex-direction: column;
+        padding: 3.5rem;
+        p{
+            font-family: 'MontserratBold';
+            color: $text-color-4;                
+            font-size: 3rem;
+            line-height: 1.1; 
+            padding-top: 2rem;                   
+            .span-think{
+                color: $text-color-3;
+            }
+            .span-tools{
+                color: $text-color-5;
+            }
+        }
+    }
+}

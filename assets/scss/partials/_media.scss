@@ -33,6 +33,9 @@
             margin-top:1rem;
         }
     }
+    #think {
+        width:95%
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -53,6 +56,9 @@
             width:98%;           
         }       
     }
+    #think {
+        width:95%
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -62,6 +68,9 @@
         img.portfolio{
             width: 90%;
         }  
+    }
+    #think {
+        width:95%
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -77,15 +86,23 @@
             width:98%;           
         }       
     }
+    #think {
+        width:95%
+    }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
+    #think {
+        width:95%
+    }
 }
 
 /* Extra large devices (Extra large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    
+    #think {
+        width:73.5%;
+        margin-top:10rem;
+    }
 }
 
 /* Double Extra large devices (Double Extra large laptops and desktops, 1920px and up) */

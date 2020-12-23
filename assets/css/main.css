@@ -171,6 +171,106 @@
   text-align: center;
 }
 
+/* Think */
+#think {
+  width: 73.5%;
+  margin: 5rem auto 0;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#think .think-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#think .think-title .title-no {
+  font-family: 'MontserratLight';
+  color: #8b33e5;
+  text-align: right;
+  font-size: 15rem;
+  opacity: 0.5;
+  line-height: 0;
+}
+
+#think .think-title .title-sec {
+  text-align: right;
+}
+
+#think .think-title .title-sec .title {
+  font-family: 'MontserratBold';
+  color: #8b33e5;
+  text-align: right;
+  font-size: 7.2rem;
+  line-height: 0;
+}
+
+#think .think-title .title-sec .caption {
+  font-family: 'MontserratBold';
+  color: #178daa;
+  text-align: right;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  line-height: 3.4;
+  text-transform: uppercase;
+}
+
+#think .think-brain .brain {
+  position: relative;
+  opacity: 0.15;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+}
+
+#think .think-brain .brain.brain-1, #think .think-brain .brain.brain-2, #think .think-brain .brain.brain-3, #think .think-brain .brain.brain-4, #think .think-brain .brain.brain-5, #think .think-brain .brain.brain-6, #think .think-brain .brain.brain-7 {
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  transition: all ease-out 1s;
+  -webkit-transition: all ease-out 1s;
+  -moz-transition: all ease-out 1s;
+  -o-transition: all ease-out 1s;
+  -ms-animation: all ease-out 1s;
+}
+
+#think .think-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 3.5rem;
+}
+
+#think .think-content p {
+  font-family: 'MontserratBold';
+  color: #178daa;
+  font-size: 3rem;
+  line-height: 1.1;
+  padding-top: 2rem;
+}
+
+#think .think-content p .span-think {
+  color: #8b33e5;
+}
+
+#think .think-content p .span-tools {
+  color: #b6f1ff;
+}
+
 /* Scroll */
 /* width */
 ::-webkit-scrollbar {
@@ -225,6 +325,7 @@ body {
 /* CSS */
 html, body {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -303,6 +404,9 @@ ul li {
   .intro .go {
     margin-top: 1rem;
   }
+  #think {
+    width: 95%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -321,6 +425,9 @@ ul li {
   .intro .description {
     width: 98%;
   }
+  #think {
+    width: 95%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -330,6 +437,9 @@ ul li {
   }
   .hero img.portfolio {
     width: 90%;
+  }
+  #think {
+    width: 95%;
   }
 }
 
@@ -344,10 +454,26 @@ ul li {
   .intro .description {
     width: 98%;
   }
+  #think {
+    width: 95%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #think {
+    width: 95%;
+  }
+}
+
 /* Extra large devices (Extra large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #think {
+    width: 73.5%;
+    margin-top: 10rem;
+  }
+}
+
 /* Double Extra large devices (Double Extra large laptops and desktops, 1920px and up) */
 @media only screen and (min-width: 1920px) {
   .logo {

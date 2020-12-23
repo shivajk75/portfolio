@@ -1,3 +1,4 @@
+
 var MYPROFILE = MYPROFILE || {};
 MYPROFILE.mainFunction = (function(){
     var init = function(){

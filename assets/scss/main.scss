@@ -14,6 +14,9 @@
 /* Hero */
 @import './partials/intro'; 
 
+/* Think */
+@import './partials/think'; 
+
 /* Scroll */
 @import './partials/scroll'; 
 
@@ -23,6 +26,7 @@
 /* CSS */
 html, body{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body{
     background: $bg-color-1 url('../img/bg.jpg') no-repeat top;
