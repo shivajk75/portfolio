@@ -36,12 +36,27 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    .logo{
+        margin: 0;
+        padding: 1rem;
+    }
+    .hero{        
+        height:25rem;
+        padding-top: 3rem;
+        img.portfolio{
+            width: 98%;
+        }  
+    }
+    .intro{       
+        .description{
+            width:98%;           
+        }       
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px){
+@media only screen and (min-width: 768px) and (max-width: 811px){
     .hero{        
         height:50rem;
         img.portfolio{
@@ -49,7 +64,20 @@
         }  
     }
 }
-
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 812px) and (max-width: 991px){
+    .hero{        
+        height:25rem;
+        img.portfolio{
+            width: 100%;
+        }  
+    }
+    .intro{       
+        .description{
+            width:98%;           
+        }       
+    }
+}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     
