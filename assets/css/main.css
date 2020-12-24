@@ -408,22 +408,6 @@ ul li {
   .intro .go {
     margin-top: 1rem;
   }
-  #think {
-    width: 95%;
-  }
-  #think .think-title .title-no {
-    font-size: 12rem;
-  }
-  #think .think-brain .brain {
-    width: 90%;
-  }
-  #think .think-content {
-    padding: 1rem;
-  }
-  #think .think-content p {
-    font-size: 2.6rem;
-    line-height: 1.3;
-  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -442,9 +426,6 @@ ul li {
   .intro .description {
     width: 98%;
   }
-  #think {
-    width: 95%;
-  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -454,9 +435,6 @@ ul li {
   }
   .hero img.portfolio {
     width: 90%;
-  }
-  #think {
-    width: 95%;
   }
 }
 
@@ -471,6 +449,67 @@ ul li {
   .intro .description {
     width: 98%;
   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (Extra large laptops and desktops, 1200px and up) */
+/* Double Extra large devices (Double Extra large laptops and desktops, 1920px and up) */
+@media only screen and (min-width: 1920px) {
+  .logo {
+    margin: 5rem auto 2rem;
+    width: 73.5%;
+  }
+  .hero {
+    height: 50rem;
+  }
+  .intro {
+    margin-top: 5rem;
+  }
+  .intro .description {
+    width: 50%;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #think {
+    width: 99%;
+  }
+  #think .think-title .title-no {
+    font-size: 12rem;
+  }
+  #think .think-brain {
+    margin: auto;
+  }
+  #think .think-brain .brain {
+    width: 100%;
+  }
+  #think .think-content {
+    padding: 1rem;
+    text-align: center;
+  }
+  #think .think-content p {
+    font-size: 2.6rem;
+    line-height: 1.3;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  #think {
+    width: 95%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 811px) {
+  #think {
+    width: 95%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 812px) and (max-width: 991px) {
   #think {
     width: 95%;
   }
@@ -492,19 +531,4 @@ ul li {
 }
 
 /* Double Extra large devices (Double Extra large laptops and desktops, 1920px and up) */
-@media only screen and (min-width: 1920px) {
-  .logo {
-    margin: 5rem auto 2rem;
-    width: 73.5%;
-  }
-  .hero {
-    height: 50rem;
-  }
-  .intro {
-    margin-top: 5rem;
-  }
-  .intro .description {
-    width: 50%;
-  }
-}
 /*# sourceMappingURL=main.css.map */
